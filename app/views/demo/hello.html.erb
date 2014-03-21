@@ -1,0 +1,28 @@
+<h1>Demo#hello</h1>
+<p>Hello World!</p>
+
+<%= 1+1 %> 
+<br />
+
+<% target = "world" %>
+<%= "Hello #{target}" %>
+
+<% 	@array.each do |n| %> <br />
+  <%= n %>
+ <% end %>
+
+ <br /> 
+
+ <a href="/demo/index">Index page 1</a> </br />
+ <%= link_to('Index page 2', {:action => 'index'}) %>
+
+ <br />
+
+ ID: <%= params[:id] %></br />
+ id: <%= @id %></br />
+ page: <%= @page.+ 1 %></br />
+
+ <hr />
+
+ <%= params.inspect %>
+ 
